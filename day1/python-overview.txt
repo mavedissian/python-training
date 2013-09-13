@@ -1,0 +1,129 @@
+[mike@Mickaels-MacBook-Air day1]$ python
+Python 2.7.1 (r271:86832, Jul 31 2011, 19:30:53) 
+[GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2335.15.00)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a = 'mickael'
+>>> a
+'mickael'
+
+>>> list = []
+>>> list
+[]
+
+>>> listB = [1, 'a', 'b']
+>>> listB
+[1, 'a', 'b']
+>>> listB.append('Mickael')
+>>> listB
+[1, 'a', 'b', 'Mickael']
+>>> len(listB)
+4
+
+>>> d = {'Mickael' :15}
+>>> d
+{'Mickael': 15}
+>>> d['Mickael']
+15
+
+>>> d = {'Excellent':'Good', 'Bad':'Terrible'}
+>>> d
+{'Bad': 'Terrible', 'Excellent': 'Good'}
+
+>>> d['Bad']
+'Terrible'
+>>> d[1234] = 'Hello'
+>>> d
+{'Bad': 'Terrible', 1234: 'Hello', 'Excellent': 'Good'}
+
+>>> d.keys()
+['Bad', 1234, 'Excellent']
+
+>>> if (1 == '1'):
+...   print 'True'
+... 
+>>> if (1 == 1):
+...   print 'True'
+... 
+True
+
+>>> for element in d:
+...   print element
+... 
+Bad
+1234
+Excellent
+
+>>> if (1 is not '1'):
+...   print 'True'
+... 
+True
+
+>>> d
+{'Bad': 'Terrible', 1234: 'Hello', 'Excellent': 'Good'}
+>>> if ('Bad' in d):
+...   print True
+... 
+True
+
+>>> if (1 in d):
+...   print True
+... else:
+...   print False
+... 
+False
+
+>>> listB
+[1, 'a', 'b', 'Mickael']
+
+>>> for element in listB:
+...     print element
+... 
+1
+a
+b
+Mickael
+
+>>> range(0,5)
+[0, 1, 2, 3, 4]
+>>> for number in range(0,10):
+...   print number
+... 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+>>> number = 1
+>>> for number in range(0,10):
+...   print number
+... 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+>>> 
+>>> 
+>>> listB
+[1, 'a', 'b', 'Mickael']
+
+>>> index = -1
+>>> pointer = 0
+>>> while (pointer != 'b'):
+...     index += 1
+...     pointer = listB[index]
+...     print pointer
+... 
+1
+a
+b
